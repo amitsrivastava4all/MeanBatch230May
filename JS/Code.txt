@@ -1,0 +1,101 @@
+a = 100;
+100
+var b = 200;
+undefined
+typeof a;
+"number"
+a=100.20;
+100.2
+typeof a;
+"number"
+a='Hello';
+"Hello"
+typeof a;
+"string"
+a="Hello";
+"Hello"
+typeof a;
+"string"
+a=false;
+false
+typeof a;
+"boolean"
+a={};
+Object {}
+typeof a;
+"object"
+a instanceof Object;
+true
+a=[];
+[]
+typeof a;
+"object"
+a instanceof Array;
+true
+a=null;
+null
+typeof a;
+"object"
+a=10/0;
+Infinity
+a;
+Infinity
+typeof a;
+"number"
+a=100 +"amit";
+"100amit"
+typeof a;
+"string"
+a=100 -"amit";
+NaN
+typeof a;
+"number"
+var e ;
+undefined
+typeof e;
+"undefined"
+a=1000;
+1000
+b="1000";
+"1000"
+typeof a;
+"number"
+typeof b;
+"string"
+c = a + b;
+"10001000"
+c= a - b;
+0
+c = a *b;
+1000000
+c= a/b;
+1
+a;
+1000
+a+true;
+1001
+a-false;
+1000
+a;
+1000
+b;
+"1000"
+a==b;
+true
+a===b;
+false
+function show(){
+console.log("This is Show Called ");
+}
+undefined
+typeof show;
+"function"
+show();
+VM879:2 This is Show Called 
+undefined
+show(10,20);
+VM879:2 This is Show Called 
+undefined
+show(10,20,"100","9999");
+VM879:2 This is Show Called 
+undefined
