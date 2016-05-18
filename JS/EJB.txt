@@ -1,0 +1,21 @@
+1. EJB 
+a) Session Bean (Business Logic) + Asynch Bean
+
+EJB Server
+Tomcat - It doesn't Have EJB Container.
+Tomcat has Only WebContainer, and WebContainer can only run Web Components.
+WebComponents are Servlet, JSP , Struts.
+
+Web Server = Web Container
+e.g. of Web Server ( Tomcat , Jetty)
+Application Server = Web Container + EJB Container
+e.g of Application Server
+JBoss , GlassFish , Oracle App Server, IBM WebSphere, BEA Weblogic
+
+b) Entity Bean  (DB Logic)
+Interfaces
+Implement Interfaces (JPA) (Java Persistance API)
+ORM (Object Relation Mapping)  --> Hibernate
+Hibernate with JPA
+DB Indep. Applications , Programmer Not Create Tables, Not Write SQL
+c) Message Driven Bean  (Asynch Business Logic) (Messaging Server)
