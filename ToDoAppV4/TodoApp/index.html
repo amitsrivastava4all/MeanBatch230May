@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/design.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/controller.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <fieldset>
+      <legend>ToDo</legend>
+      <table>
+        <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" id="taskName" placeholder="Type TaskName Here"/></td>
+        </tr>
+        <tr>
+            <td><label>Descr:</label></td>
+            <td><textarea rows="6" cols="20" id="taskDesc" placeholder="Type TaskDescr Here"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <table>
+              <tr>
+                <td><button class="btn btn-primary" id='add'><span class="glyphicon glyphicon-user"></span>Add</button></td>
+                <td><button id='delete'>Delete</button></td>
+                <td><button id='search'>Search</button>
+                <span id="searchTxtSpan"><input type="text" placeholder="Type to Search"  id="searchTxt"></span>
+                </td>
+                <td><button id="save">Save</button></td>
+                <td><button id="load">Load</button></td>
+                <td><button id="loadFromServer">LoadDataFromServer</button></td>
+              </td>
+
+          </tr>
+        </table>
+
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>
+        TodoListItems
+      </legend>
+      <ul id="taskDataList">
+      </ul>
+      <br />
+      <span id="countCompleted"></span> &nbsp;&nbsp; <span id="countPending"></span>
+    </fieldset>
+  </body>
+</html>

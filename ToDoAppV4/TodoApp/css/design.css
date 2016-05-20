@@ -1,0 +1,11 @@
+/* to do App Design CSS */
+.pending{
+  color: green;
+}
+.completed{
+  color:red;
+  text-decoration: line-through;
+}
+#searchTxtSpan{
+  display: none;
+}
