@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>AngularJS SI - MVC</title>
+    <script src="js/libs/angular.min.js"></script>
+</head>
+<body ng-app="simpleIntrestModule">
+   <div ng-controller="sicontroller">
+    <input type="text" ng-init="pr=0" ng-model="pr" placeholder="Type Principal">
+    <input type="text" ng-init="rate=0" ng-model="rate" placeholder="Type Rate">
+    <input type="text" ng-init="time=0" ng-model="time" placeholder="Type Time">
+    <button ng-click="calculateSimpleInterest()">Calculate</button>
+    <h1>Simple Interest is {{result}}</h1>
+    </div>
+    
+    <!--<h1>Simple Interest is {{pr*rate*time/100}}</h1>-->
+    <script src="js/custom/app.js"></script>
+    <script src="js/custom/model.js"></script>
+    <script src="js/custom/controller.js"></script>
+</body>
+</html

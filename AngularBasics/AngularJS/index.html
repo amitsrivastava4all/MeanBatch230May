@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>AngularJS First Example</title>
+    <script src="js/libs/angular.min.js"></script>
+</head>
+<!-- ng-app is a angular directive and it is used to bootstrap the angular in html file -->
+<body ng-app>
+    <input type="text" ng-model="txtfirstname" placeholder="Type First Name Here">
+    <input type="text" ng-model="txtlastname" placeholder="Type Last Name Here">
+    <div>
+        Welcome {{txtfirstname}} {{txtlastname}}
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>AngularJS First Example</title>
+    <script src="js/libs/angular.min.js"></script>
+</head>
+<body ng-app>
+    <input type="text" ng-init="pr=0" ng-model="pr" placeholder="Type Principal">
+    <input type="text" ng-init="rate=0" ng-model="rate" placeholder="Type Rate">
+    <input type="text" ng-init="time=0" ng-model="time" placeholder="Type Time">
+    <h1>Simple Interest is {{pr*rate*time/100}}</h1>
+</body>
+</html>
