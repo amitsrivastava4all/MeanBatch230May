@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Calc App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/libs/angular.min.js"></script>
+</head>
+<body ng-app="calcapp" ng-controller="calcController">
+    
+    <div class="container">
+        <h1>Calculator Example - Demo</h1>
+        <div class="form-horizontal">
+  <div class="form-group">
+    <label for="firstno" class="col-sm-2 control-label">FirstNo</label>
+    <div class="col-sm-10">
+      <input type="text" ng-model="firstNumber" class="form-control" id="firstno" placeholder="First Number">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="secondno" class="col-sm-2 control-label">SecondNo</label>
+    <div class="col-sm-10">
+      <input type="text" ng-model="secondNumber" class="form-control" id="secondno" placeholder="Second Number">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button  class="btn btn-primary" ng-click="operation('+')">+ </button>
+      <button  class="btn btn-success" ng-click="operation('-')">- </button>
+    </div>
+  </div>
+</div>
+    </div>
+    <h2>Result is {{result}}</h2>
+<script src="js/custom/app.js"></script>  
+<script src="js/custom/model.js"></script> 
+<script src="js/custom/controller.js"></script>   
+</body>
+</html>
