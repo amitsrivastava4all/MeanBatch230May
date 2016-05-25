@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Controller Example</title>
+    <script src="libs/angular.min.js"></script>
+    <style>
+        .even{
+            background-color: lightblue;
+        }
+        .odd{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body ng-app>
+   <input type="text" ng-model="search.id" placeholder="Type to Search Employee">
+    <!--<ul ng-model="empdata" ng-init="empdata=[
+       {id:1001,name:'Ram',salary:99999},{id:1002,name:'Shyam',salary:29999},
+       {id:1003,name:'Tom',salary:49999},{id:1004,name:'Mike',salary:39999}
+       ]" >-->
+       <!--<li ng-repeat ="emp in empdata|filter:search">-->
+          <!--<li ng-repeat ="emp in empdata|limitTo:2:2">--> <!-- Pagination -->
+           <!--<li ng-repeat ="emp in empdata|orderBy:'name':'reverse'">
+           Even {{$even}} &nbsp; Odd{{$odd}}{{$index+1}} &nbsp;{{emp.id}}&nbsp;{{emp.name|uppercase}}&nbsp;{{emp.salary|currency}}
+       </li>
+        
+    </ul>-->
+    <input type="checkbox" ng-model="x">Click
+    Check {{x}}
+    <div  ng-show="x">
+        <input type="text" placeholder="Search Data...">
+    </div>
+    <table border="1" ng-model="empdata" ng-init="empdata=[
+       {id:1001,name:'Ram',salary:99999,url:'images/1.cms'},{id:1002,name:'Shyam',salary:29999,url:'images/2.png'},
+       {id:1003,name:'Tom',salary:49999,url:'images/3.jpg'},{id:1004,name:'Mike',salary:39999,url:'images/2.png'}
+       ]">
+        <tr>
+            <td>S.no</td>
+            <td>Empno</td>
+            <td>Name</td>
+            <td>Salary</td>
+        </tr>
+        <tr ng-repeat="emp in empdata" ng-class="{'even': $even , 'odd': $odd}">
+            <td>{{$index+1}}</td>
+            <td>{{emp.id}}</td>
+            <td>{{emp.name|uppercase}}</td>
+            <td>{{emp.salary|currency}}</td>
+            <td><img ng-src="{{emp.url}}"></td>
+        </tr>
+    </table>    
+</body>
+</html>
