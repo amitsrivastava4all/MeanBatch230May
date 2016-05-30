@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Routing Demo</title>
+        <link rel="stylesheet" href="../css/design.css">
+        <script src="../libs/angular.min.js"></script>
+        <script src="../libs/angular-route.min.js"></script>
+        <script src="../app.js"></script>
+        <script src="../factory/itemfactory.js"></script>
+        <script src="../controller/itemcontroller.js"></script>
+        <!--<script src="../controller/mobilecontroller.js"></script>
+        <script src="../controller/tabletcontroller.js"></script>-->
+        <script src="../routing/routes.js"></script>
+        
+    </head>
+    <body ng-app="shopapp">
+        <header>
+            <h1>Welcome in Online Shop</h1>
+            <nav>
+                <ul>
+                    <li><a ng-href="#/mobile/mobile">Mobile</a></li>
+                    <li><a ng-href="#/tablet/tablet">Tablet</a></li>
+                    <li>Led</li>
+                    <li>Shoes</li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <section>
+            <div ng-view></div>
+        </section>
+        <footer>
+            <hr>
+            this is Footer 
+        </footer>
+    </body>
+</html>
