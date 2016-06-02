@@ -1,0 +1,28 @@
+{
+  "name": "karmajasmineangular",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "amit.srivastava4all@gmail.com <amit.srivastava4all@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "karma": "^0.4.6",
+    "jasmine-core": "jasmine#^2.4.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-chrome-launcher": "^1.0.1",
+    "angular-mocks": "^1.5.6"
+  },
+  "dependencies": {
+    "angular": "^1.5.6",
+    "bootstrap": "^3.3.6"
+  }
+}
