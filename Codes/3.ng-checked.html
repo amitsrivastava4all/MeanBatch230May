@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app>
+<head>
+  <script src="../js/angular.min.js"></script>
+</head>
+<body>
+    <b>Master CheckBox</b>
+  <label>someProperty = {{someProperty}}</label>
+  <input type="checkbox" ng-init="master = false"
+         ng-model="master">
+
+  <br>
+
+  <b>Dependent CheckBox</b>
+  <input type="checkbox"
+         ng-init="child1 = false" ng-checked="master"
+         ng-model="child1">
+    <input type="checkbox"
+           ng-init="child2 = false" ng-checked="master"
+           ng-model="child2">
+    <input type="checkbox"
+           ng-init="child2 = false" ng-checked="master"
+           ng-model="child2">
+    <input type="checkbox"
+           ng-init="child2 = false" ng-checked="master"
+           ng-model="child2">
+
+
+
+</body>
+</html>

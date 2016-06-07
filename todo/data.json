@@ -1,0 +1,78 @@
+{
+   "employees":[
+      {
+         "id":1001,
+         "worked_with":[
+            1002,
+            1005
+         ],
+         "name":"Vito Corleone",
+         "bio":"Vito was born in the small town of Corleone, Sicily, on December 7, 1891. Antonio Andolini, his father, is murdered by the local Mafia boss, Don Ciccio, because he refused to pay tribute to him. His older brother, Paolo, swears revenge, but he too is murdered soon afterwards. Eventually, Ciccios henchmen come to the Andolinis home to kill Vito. In desperation, Vitos mother takes her son to see the Mafia chieftain herself and begs him to spare Vito. Ciccio refuses, reasoning that Vito will also seek revenge as an adult. Upon Ciccios refusal, Vitos mother puts a knife to his throat, allowing her son to escape while she is killed. Later that night, he is smuggled away, fleeing from Sicily to seek refuge in America on a cargo ship full of immigrants. In the film, he is renamed Vito Corleone because the immigration workers at Ellis Island mistake Andolini for his middle name and the name of his town for his last name. According to The Godfather Part II, he later adopts the middle name Andolini to acknowledge his heritage.",
+         "biolink":"http://en.wikipedia.org/wiki/Vito_Corleone",
+         "picture_url":"http://upload.wikimedia.org/wikipedia/en/2/21/Godfather15_flip.jpg",
+         "popularity":8
+      },
+      {
+         "id":1002,
+         "worked_with":[
+            1001
+         ],
+         "name":"Carmela Corleone",
+         "bio":"Carmela Corleone was born to a Sicilian family, many of whom lived near Corleone in Sicily. She came to the United States sometime after the turn of the century. She married Vito Corleone in 1914, and two years later, they had their first child, Santino. Carmela suffered several miscarriages in the following years, before giving birth to the sickly Frederico. At this time, Vito Corleone was struggling to make ends meet, as Massimo Fanucci had forced him out of his job at Abbandando Grosseria.",
+         "biolink":"http://godfather.wikia.com/wiki/Carmela_Corleone",
+         "picture_url":"http://i63.photobucket.com/albums/h122/pimpn209/24-1.jpg",
+         "popularity":5
+      },
+      {
+         "id":1003,
+         "worked_with":[
+            1001,
+            1004
+         ],
+         "name":"Carlo Rizzi",
+         "bio":"A native of Nevada, Rizzi migrates to New York City following trouble with the law and befriends Sonny Corleone, through whom he meets Sonny's sister Connie in 1941 at a surprise birthday party for Sonnys father Vito (depicted in a flashback in The Godfather Part II). They get married in 1945; both the book and film open with their wedding. Vito doesnt like the idea of Connie marrying a small-time criminal, and is also displeased by the fact Rizzi isn't a full-blooded Sicilian; his mother was from northern Italy, hence Rizzi's blue eyes and blond hair. He only grants Connies hand in marriage on condition that they hold an old-style Sicilian wedding.",
+         "biolink":"http://en.wikipedia.org/wiki/Carlo_Rizzi_(The_Godfather)",
+         "picture_url":"http://1.bp.blogspot.com/_JKD5BZC4VY8/TDPEBkxtLcI/AAAAAAAAEyY/KnhFbpBUBxs/s1600/connie+rizzi.jpg",
+         "popularity":2
+      },
+      {
+         "id":1004,
+         "worked_with":[
+            1002,
+            1005
+         ],
+         "name":"Lucy Mancini",
+         "bio":"She is one of the childhood friends of Vito Corleones children, particularly his daughter, Connie. She is the maid of honor at Connie's wedding. Lucy has sex with Vitos son Sonny at the wedding, and has a brief extramarital affair with him. The novel and the films diverge with regard to their respective treatments of Lucy's fate after Sonny's death.",
+         "biolink":"http://en.wikipedia.org/wiki/Lucy_Mancini",
+         "picture_url":"http://img.getglue.com/topics/p/lucy_mancini/normal.jpg",
+         "popularity":4
+      },
+      {
+         "id":1005,
+         "worked_with":[
+            1001,
+            1002,
+            1003,
+            1004,
+            1006
+         ],
+         "name":"Tom Hagen",
+         "bio":"Thomas Hagen was the son of Martin and Bridget Hagen. Martin was a hard-working carpenter who had never done a dishonest thing in his life, but he was also a violent alcoholic. When Hagen was ten years old, his mother Bridget caught an eye infection that resulted in blindness, and died soon after from venereal disease. Torn up with grief, his father became a hopeless drunkard and a few months later Martin Hagen drank himself to death. Hagen and his sister were stuck in an orphanage, but Hagen ran away. The sister ended up in a foster home, but the social agencies of the time did not follow up on Hagens case. Hagen lived on the streets for more than a year.",
+         "biolink":"http://godfather.wikia.com/wiki/Tom_Hagen",
+         "picture_url":"http://images4.wikia.nocookie.net/__cb20100705215236/godfather/images/thumb/a/a8/Vlcsnap-2010-06-03-17h34m16s91.png/250px-Vlcsnap-2010-06-03-17h34m16s91.png",
+         "popularity":7
+      },
+      {
+         "id":1006,
+         "worked_with":[
+            1001,
+            1004
+         ],
+         "name":"Kay Adams",
+         "bio":"Kay went to Dartmouth College to study to be a teacher. She met Michael, also a student at Dartmouth, in 1945, and they fell in love. As a non-Italian, she is somewhat of an outsider from the beginning and symbolizes Michael's initial desire to live a more Americanized life. When she and Michael attend his sister Connies (Talia Shire) wedding, they sit at a table separate from the rest of the family. In the book, the other guests notice that Kay's manner is more free than they have come to expect from an unmarried woman.",
+         "biolink":"http://en.wikipedia.org/wiki/Kay_Adams-Corleone",
+         "picture_url":"http://movieimage5.tripod.com/godfather/godfather07.jpg",
+         "popularity":5
+      }
+   ]
+}

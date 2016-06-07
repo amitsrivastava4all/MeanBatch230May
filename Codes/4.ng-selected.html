@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app>
+<head>
+  <script src="../js/angular.min.js"></script>
+</head>
+<body>
+
+  <label>Select Country (Tick to Select Default Country as India):</label>
+  <input type="checkbox"
+         ng-model="defaultcountry"><br/>
+  <select>
+    <option>USA</option>
+    <option ng-selected="defaultcountry">India</option>
+    <option>UK</option>
+    <option>Srilanka</option>
+    <option>China</option>
+    <option>Australia</option>
+    <option>Singapore</option>
+    <option>Bangladesh</option>
+
+
+
+  </select>
+
+
+
+</body>
+</html>

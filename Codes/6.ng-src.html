@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+  <script src="../js/angular.min.js"></script>
+</head>
+<body>
+
+  <h1>Wrong Way</h1>
+  <video id="demo"   poster="https://pbs.twimg.com/profile_images/2563508262/falgg2jybmhgk16y62lr.png" width="560" height="320" controls="controls" preload="auto" loop="loop" autoplay >
+<!--<source src="https://www.youtube.com/watch?v=5SkBZcvuuQs"  type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/>-->
+
+<source type="video/youtube" src="https://www.youtube.com/watch?v=5SkBZcvuuQs" />
+</video>
+
+  <img src="{{imgSrc}}" />
+
+  <h1>Right way</h1>
+  <img ng-src="{{imgSrc}}" />
+
+
+  <script>
+    angular.module('myApp', [])
+    .run(function($rootScope, $timeout) {
+
+      $timeout(function() {
+        $rootScope.imgSrc = 'https://www.google.com/images/srpr/logo11w.png';
+      }, 5000);
+
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/foundation/4.3.2/css/foundation.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.js"></script>
+  <script>
+      angular.module('myApp', [])
+      </script>
+</head>
+<body>
+  
+<div ng-if="2 + 2 === 5">
+  <h1>Won't see this  DOM node, not even in the source code</h1>
+</div>
+
+<div ng-if="2 + 2 === 4">
+  Hi, I do exist
+</div>
+  
+</body>
+</html>

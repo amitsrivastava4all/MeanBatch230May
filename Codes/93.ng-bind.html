@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+  <script src="../lib/angular/angular.min.js"></script>
+</head>
+<body ng-init="greeting = 'Hello World'">
+
+  <p ng-bind="greeting"></p>
+
+  {{greeting}}
+  
+
+  <script>
+    angular.module('myApp', [])
+  </script>
+
+</body>
+</html>

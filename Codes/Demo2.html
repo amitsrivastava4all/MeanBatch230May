@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../js/angular.min.js"></script>
+</head>
+<body ng-app="myapp" ng-controller="myctrl">
+    <input type="text" ng-model="person.name">
+    <input type="text" ng-model="person.age">
+    <input type="text" ng-model="person.salary">
+    <button ng-click="showInfo()">Show Info</button>
+    <div ng-bind="personInfo">
+        
+    </div>
+    <script>
+    var app = angular.module("myapp",[]);
+    app.controller("myctrl",function($scope){
+        $scope.showInfo=function(){
+            var result = "";
+            console.log($scope.person);
+            for(key in $scope.person){
+            result = result + $scope.person[key]+ " ";
+            }
+            $scope.personInfo = result;
+            /*$scope.personInfo= $scope.person.name + " "+$scope.person.age+" "+$scope.person.salary;*/
+        }
+    }) ;   
+    </script>
+</body>
+</html>
