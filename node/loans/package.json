@@ -1,0 +1,12 @@
+{
+  "name": "loans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "loanapply.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start":"node testloan.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
