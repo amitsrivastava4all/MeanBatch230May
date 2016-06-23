@@ -1,0 +1,16 @@
+{
+  "name": "bmflights",
+  "version": "1.0.0",
+  "description": "this is flight module",
+  "main": "flightbook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":" node testflights.js"
+  },
+  "keywords": [
+    "flight",
+    "module"
+  ],
+  "author": "amit",
+  "license": "ISC"
+}
